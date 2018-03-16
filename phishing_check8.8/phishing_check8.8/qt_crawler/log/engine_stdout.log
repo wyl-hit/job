@@ -1,0 +1,123 @@
+
+***********************************************************
+Sat Aug  1 16:12:41 2015: engine server start
+Sat Aug  1 16:12:41 2015: server register
+Sat Aug  1 16:12:41 2015: monitor port 23436
+————————————————————————————————————————————————————
+Sat Aug  1 16:13:11 2015  connect mysql win, ip: 192.168.65.148
+
+***********************************************************
+Sat Aug  1 17:46:49 2015: engine server start
+Sat Aug  1 17:46:49 2015: server register
+Sat Aug  1 17:46:49 2015: monitor port 23436
+————————————————————————————————————————————————————
+Sat Aug  1 17:47:19 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 17:49:33 2015  request from : ('192.168.174.128', 41581): engine message_type : 0 task_id : 54 
+Sat Aug  1 17:49:33 2015  |*|receive task_id|*|: 54
+Sat Aug  1 17:49:33 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 17:49:33 2015  connect mongo win, ip: 192.168.65.148
+Sat Aug  1 17:49:33 2015  engine stuck check start task_id: 54
+Sat Aug  1 17:49:33 2015  |*|engine start|*|, task_id: 54
+parse over!
+Sat Aug  1 17:49:40 2015 |*|engine win over|*|, task_id: 54
+Sat Aug  1 17:49:40 2015  message ip: 192.168.174.128, port: 23450, engine_type: 00, message_type: 4, for task: 54
+Sat Aug  1 17:50:33 2015 engine stuck check quit task_id: 54: 
+Sat Aug  1 18:00:15 2015  request from : ('192.168.174.128', 41749): engine message_type : 0 task_id : 77 
+Sat Aug  1 18:00:15 2015  |*|receive task_id|*|: 77
+Sat Aug  1 18:00:15 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 18:00:15 2015  connect mongo win, ip: 192.168.65.148
+Sat Aug  1 18:00:15 2015  engine stuck check start task_id: 77
+Sat Aug  1 18:00:15 2015  |*|engine start|*|, task_id: 77
+parse over!
+Sat Aug  1 18:00:17 2015 |*|engine win over|*|, task_id: 77
+Sat Aug  1 18:00:17 2015  message ip: 192.168.174.128, port: 23450, engine_type: 00, message_type: 4, for task: 77
+Sat Aug  1 18:01:15 2015 engine stuck check quit task_id: 77: 
+Sat Aug  1 19:27:40 2015  request from : ('192.168.174.128', 41814): engine message_type : 0 task_id : 79 
+Sat Aug  1 19:27:40 2015  |*|receive task_id|*|: 79
+Sat Aug  1 19:27:40 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 19:27:40 2015  connect mongo win, ip: 192.168.65.148
+Sat Aug  1 19:27:41 2015  engine stuck check start task_id: 79
+Sat Aug  1 19:27:41 2015  |*|engine start|*|, task_id: 79
+parse over!
+Sat Aug  1 19:27:45 2015 |*|engine win over|*|, task_id: 79
+Sat Aug  1 19:27:45 2015  message ip: 192.168.174.128, port: 23450, engine_type: 00, message_type: 4, for task: 79
+Sat Aug  1 19:28:41 2015 engine stuck check quit task_id: 79: 
+Sat Aug  1 19:32:13 2015  request from : ('192.168.174.128', 41859): engine message_type : 0 task_id : 80 
+Sat Aug  1 19:32:13 2015  |*|receive task_id|*|: 80
+Sat Aug  1 19:32:13 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 19:32:13 2015  connect mongo win, ip: 192.168.65.148
+Sat Aug  1 19:32:13 2015  engine stuck check start task_id: 80
+Sat Aug  1 19:32:13 2015  |*|engine start|*|, task_id: 80
+parse over!
+Sat Aug  1 19:32:14 2015 |*|engine win over|*|, task_id: 80
+Sat Aug  1 19:32:14 2015  message ip: 192.168.174.128, port: 23450, engine_type: 00, message_type: 4, for task: 80
+Sat Aug  1 19:33:13 2015 engine stuck check quit task_id: 80: 
+Sat Aug  1 20:13:27 2015  request from : ('192.168.174.128', 41903): engine message_type : 0 task_id : 81 
+Sat Aug  1 20:13:27 2015  |*|receive task_id|*|: 81
+Sat Aug  1 20:13:27 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 20:13:27 2015  connect mongo win, ip: 192.168.65.148
+Sat Aug  1 20:13:28 2015  engine stuck check start task_id: 81
+Sat Aug  1 20:13:28 2015  |*|engine start|*|, task_id: 81
+parse over!
+Sat Aug  1 20:13:33 2015 |*|engine win over|*|, task_id: 81
+Sat Aug  1 20:13:33 2015  message ip: 192.168.174.128, port: 23450, engine_type: 00, message_type: 4, for task: 81
+Sat Aug  1 20:14:28 2015 engine stuck check quit task_id: 81: 
+Sat Aug  1 20:48:41 2015  request from : ('192.168.174.128', 41983): engine message_type : 0 task_id : 82 
+Sat Aug  1 20:48:41 2015  |*|receive task_id|*|: 82
+Sat Aug  1 20:48:41 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 20:48:41 2015  connect mongo win, ip: 192.168.65.148
+Sat Aug  1 20:48:41 2015  engine stuck check start task_id: 82
+Sat Aug  1 20:48:41 2015  |*|engine start|*|, task_id: 82
+parse over!
+Sat Aug  1 20:48:43 2015 |*|engine win over|*|, task_id: 82
+Sat Aug  1 20:48:43 2015  message ip: 192.168.174.128, port: 23450, engine_type: 00, message_type: 4, for task: 82
+Sat Aug  1 20:49:41 2015 engine stuck check quit task_id: 82: 
+Sat Aug  1 20:51:01 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 21:03:27 2015  request from : ('192.168.174.128', 42043): engine message_type : 0 task_id : 84 
+Sat Aug  1 21:03:27 2015  |*|receive task_id|*|: 84
+Sat Aug  1 21:03:27 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 21:03:27 2015  connect mongo win, ip: 192.168.65.148
+Sat Aug  1 21:03:27 2015  engine stuck check start task_id: 84
+Sat Aug  1 21:03:27 2015  |*|engine start|*|, task_id: 84
+parse over!
+Sat Aug  1 21:03:28 2015 |*|engine win over|*|, task_id: 84
+Sat Aug  1 21:03:28 2015  message ip: 192.168.174.128, port: 23450, engine_type: 00, message_type: 4, for task: 84
+Sat Aug  1 21:04:12 2015  request from : ('192.168.174.128', 42074): engine message_type : 0 task_id : 83 
+Sat Aug  1 21:04:12 2015  |*|receive task_id|*|: 83
+Sat Aug  1 21:04:12 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 21:04:12 2015  connect mongo win, ip: 192.168.65.148
+Sat Aug  1 21:04:12 2015  engine stuck check start task_id: 83
+Sat Aug  1 21:04:12 2015  |*|engine start|*|, task_id: 83
+parse over!
+Sat Aug  1 21:04:13 2015 |*|engine win over|*|, task_id: 83
+Sat Aug  1 21:04:13 2015  message ip: 192.168.174.128, port: 23450, engine_type: 00, message_type: 4, for task: 83
+Sat Aug  1 21:04:27 2015 engine stuck check quit task_id: 84: 
+Sat Aug  1 21:05:12 2015 engine stuck check quit task_id: 83: 
+Sat Aug  1 21:11:59 2015  request from : ('192.168.174.128', 42135): engine message_type : 0 task_id : 86 
+Sat Aug  1 21:11:59 2015  |*|receive task_id|*|: 86
+Sat Aug  1 21:11:59 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 21:11:59 2015  connect mongo win, ip: 192.168.65.148
+Sat Aug  1 21:11:59 2015  engine stuck check start task_id: 86
+Sat Aug  1 21:11:59 2015  |*|engine start|*|, task_id: 86
+parse over!
+Sat Aug  1 21:12:01 2015 |*|engine win over|*|, task_id: 86
+Sat Aug  1 21:12:01 2015  message ip: 192.168.174.128, port: 23450, engine_type: 00, message_type: 4, for task: 86
+Sat Aug  1 21:12:59 2015 engine stuck check quit task_id: 86: 
+Sat Aug  1 21:20:40 2015  request from : ('192.168.174.128', 42197): engine message_type : 0 task_id : 87 
+Sat Aug  1 21:20:40 2015  |*|receive task_id|*|: 87
+Sat Aug  1 21:20:40 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 21:20:40 2015  connect mongo win, ip: 192.168.65.148
+Sat Aug  1 21:20:40 2015  engine stuck check start task_id: 87
+Sat Aug  1 21:20:40 2015  |*|engine start|*|, task_id: 87
+parse over!
+Sat Aug  1 21:20:41 2015 |*|engine win over|*|, task_id: 87
+Sat Aug  1 21:20:41 2015  message ip: 192.168.174.128, port: 23450, engine_type: 00, message_type: 4, for task: 87
+Sat Aug  1 21:21:40 2015 engine stuck check quit task_id: 87: 
+
+***********************************************************
+Sun Aug  2 11:51:42 2015: engine server start
+Sun Aug  2 11:51:42 2015: server register
+Sun Aug  2 11:51:42 2015: monitor port 23436
+————————————————————————————————————————————————————
+Sun Aug  2 11:52:12 2015  connect mysql win, ip: 192.168.65.148
+Sun Aug  2 16:33:41 2015  connect mysql win, ip: 192.168.65.148

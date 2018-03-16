@@ -1,0 +1,405 @@
+
+***********************************************************
+Mon Apr 18 19:26:05 2016: engine server start
+
+***********************************************************
+Tue Apr 19 18:25:01 2016: engine server start
+Can not connect to beanstalk server
+***********************************************************
+Tue Apr 19 18:38:07 2016: engine server start
+QFont::setPixelSize: Pixel size <= 0 (0)
+QFont::setPixelSize: Pixel size <= 0 (0)
+QFont::setPixelSize: Pixel size <= 0 (0)
+QFont::setPixelSize: Pixel size <= 0 (0)
+Traceback (most recent call last):
+  File "QtShotEngine.py", line 157, in <module>
+    qtcrawler_engine.start()
+  File "/home/zxy/rap_old/screenshot/server_base/daemonize.py", line 123, in start
+    self.start_operation()  # 启动守护进程的服务，首先注册并用线程更新，然后监听端口
+  File "QtShotEngine.py", line 95, in start_operation
+    job_msg.delete()
+  File "/usr/local/lib/python2.7/dist-packages/beanstalkc-0.4.0-py2.7.egg/beanstalkc.py", line 272, in delete
+  File "/usr/local/lib/python2.7/dist-packages/beanstalkc-0.4.0-py2.7.egg/beanstalkc.py", line 229, in delete
+  File "/usr/local/lib/python2.7/dist-packages/beanstalkc-0.4.0-py2.7.egg/beanstalkc.py", line 86, in _interact
+  File "/usr/local/lib/python2.7/dist-packages/beanstalkc-0.4.0-py2.7.egg/beanstalkc.py", line 43, in wrap
+beanstalkc.SocketError: [Errno 104] Connection reset by peer
+
+***********************************************************
+Wed Apr 20 18:25:01 2016: engine server start
+
+***********************************************************
+Wed Apr 20 19:44:32 2016: engine server start
+
+***********************************************************
+Thu Apr 21 18:25:01 2016: engine server start
+QFont::setPixelSize: Pixel size <= 0 (0)
+QFont::setPixelSize: Pixel size <= 0 (0)
+content-type missing in HTTP POST, defaulting to application/x-www-form-urlencoded. Use QNetworkRequest::setHeader() to fix this problem.
+
+***********************************************************
+Fri Apr 22 18:25:01 2016: engine server start
+content-type missing in HTTP POST, defaulting to application/x-www-form-urlencoded. Use QNetworkRequest::setHeader() to fix this problem.
+
+***********************************************************
+Sat Apr 23 18:25:01 2016: engine server start
+QFont::setPixelSize: Pixel size <= 0 (0)
+QFont::setPixelSize: Pixel size <= 0 (0)
+
+***********************************************************
+Sun Apr 24 18:25:01 2016: engine server start
+QFont::setPixelSize: Pixel size <= 0 (0)
+
+***********************************************************
+Mon Apr 25 18:25:01 2016: engine server start
+QFont::setPixelSize: Pixel size <= 0 (0)
+content-type missing in HTTP POST, defaulting to application/x-www-form-urlencoded. Use QNetworkRequest::setHeader() to fix this problem.
+
+***********************************************************
+Tue Apr 26 18:25:01 2016: engine server start
+QFont::setPixelSize: Pixel size <= 0 (0)
+QFont::setPixelSize: Pixel size <= 0 (0)
+QFont::setPixelSize: Pixel size <= 0 (0)
+
+***********************************************************
+Wed Apr 27 18:25:01 2016: engine server start
+QFont::setPixelSize: Pixel size <= 0 (0)
+QFont::setPixelSize: Pixel size <= 0 (0)
+QFont::setPixelSize: Pixel size <= 0 (0)
+content-type missing in HTTP POST, defaulting to application/x-www-form-urlencoded. Use QNetworkRequest::setHeader() to fix this problem.
+
+***********************************************************
+Thu Apr 28 18:25:01 2016: engine server start
+QFont::setPixelSize: Pixel size <= 0 (0)
+QFont::setPixelSize: Pixel size <= 0 (0)
+content-type missing in HTTP POST, defaulting to application/x-www-form-urlencoded. Use QNetworkRequest::setHeader() to fix this problem.
+
+***********************************************************
+Fri Apr 29 18:25:01 2016: engine server start
+content-type missing in HTTP POST, defaulting to application/x-www-form-urlencoded. Use QNetworkRequest::setHeader() to fix this problem.
+
+***********************************************************
+Sat Apr 30 18:25:01 2016: engine server start
+
+***********************************************************
+Sun May  1 18:25:02 2016: engine server start
+QFont::setPixelSize: Pixel size <= 0 (0)
+QFont::setPixelSize: Pixel size <= 0 (0)
+QFont::setPixelSize: Pixel size <= 0 (0)
+content-type missing in HTTP POST, defaulting to application/x-www-form-urlencoded. Use QNetworkRequest::setHeader() to fix this problem.
+QFont::setPixelSize: Pixel size <= 0 (0)
+
+***********************************************************
+Mon May  2 18:25:01 2016: engine server start
+
+***********************************************************
+Tue May  3 18:25:01 2016: engine server start
+Can not connect to beanstalk server
+***********************************************************
+Wed May  4 18:25:01 2016: engine server start
+QFont::setPixelSize: Pixel size <= 0 (0)
+
+***********************************************************
+Thu May  5 18:25:01 2016: engine server start
+QFont::setPixelSize: Pixel size <= 0 (0)
+QFont::setPixelSize: Pixel size <= 0 (0)
+
+***********************************************************
+Fri May  6 18:25:01 2016: engine server start
+
+***********************************************************
+Sat May  7 18:25:02 2016: engine server start
+QFont::setPixelSize: Pixel size <= 0 (0)
+content-type missing in HTTP POST, defaulting to application/x-www-form-urlencoded. Use QNetworkRequest::setHeader() to fix this problem.
+
+***********************************************************
+Sun May  8 18:25:01 2016: engine server start
+QFont::setPixelSize: Pixel size <= 0 (0)
+content-type missing in HTTP POST, defaulting to application/x-www-form-urlencoded. Use QNetworkRequest::setHeader() to fix this problem.
+
+***********************************************************
+Mon May  9 18:25:01 2016: engine server start
+
+***********************************************************
+Mon May 23 10:33:48 2016: engine server start
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+
+***********************************************************
+Tue May 24 10:30:19 2016: engine server start
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+
+***********************************************************
+Wed May 25 09:47:46 2016: engine server start
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+
+***********************************************************
+Wed May 25 18:25:02 2016: engine server start
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+
+***********************************************************
+Thu May 26 18:25:01 2016: engine server start
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+
+***********************************************************
+Fri May 27 18:25:01 2016: engine server start
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+
+***********************************************************
+Sat May 28 18:25:01 2016: engine server start
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+
+***********************************************************
+Sun May 29 18:25:01 2016: engine server start
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+
+***********************************************************
+Mon May 30 18:25:01 2016: engine server start
+
+***********************************************************
+Tue May 31 18:25:02 2016: engine server start
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+
+***********************************************************
+Wed Jun  1 18:25:01 2016: engine server start
+
+***********************************************************
+Thu Jun  2 18:25:02 2016: engine server start
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+
+***********************************************************
+Fri Jun  3 18:25:02 2016: engine server start
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+
+***********************************************************
+Sat Jun  4 18:25:02 2016: engine server start
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+
+***********************************************************
+Thu Jul 14 18:25:02 2016: engine server start
+
+***********************************************************
+Fri Jul 15 18:25:02 2016: engine server start
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+Invalid MIT-MAGIC-COOKIE-1 keyQtShotEngine.py: cannot connect to X server :0.0
+QtShotEngine.py: Fatal IO error: client killed
+QtShotEngine.py: cannot connect to X server :0.0
+QtShotEngine.py: cannot connect to X server :0.0
+
+***********************************************************
+Thu Oct 20 18:25:02 2016: engine server start
+
+***********************************************************
+Sat Nov  5 18:25:02 2016: engine server start
+
+***********************************************************
+Tue Nov  8 18:25:02 2016: engine server start
+
+***********************************************************
+Wed Nov  9 18:25:02 2016: engine server start
+
+***********************************************************
+Thu Nov 10 18:25:04 2016: engine server start
+
+***********************************************************
+Fri Nov 11 18:25:02 2016: engine server start
+
+***********************************************************
+Wed Nov 16 18:25:01 2016: engine server start
+
+***********************************************************
+Thu Nov 17 18:25:01 2016: engine server start
+
+***********************************************************
+Fri Nov 18 18:25:01 2016: engine server start
+
+***********************************************************
+Sat Nov 19 18:25:01 2016: engine server start
+
+***********************************************************
+Sun Nov 20 18:25:02 2016: engine server start
+
+***********************************************************
+Tue Nov 22 18:25:01 2016: engine server start
+
+***********************************************************
+Wed Nov 23 18:25:02 2016: engine server start
+
+***********************************************************
+Mon Dec 12 18:25:01 2016: engine server start
+
+***********************************************************
+Tue Dec 13 18:25:01 2016: engine server start
+
+***********************************************************
+Wed Dec 14 18:25:01 2016: engine server start
+
+***********************************************************
+Fri Dec 16 18:25:03 2016: engine server start
+
+***********************************************************
+Sat Dec 17 18:25:02 2016: engine server start
+
+***********************************************************
+Wed Dec 21 18:25:01 2016: engine server start
+
+***********************************************************
+Thu Dec 22 18:25:01 2016: engine server start
+
+***********************************************************
+Mon Dec 26 18:25:02 2016: engine server start
+
+***********************************************************
+Tue Dec 27 18:25:01 2016: engine server start
+
+***********************************************************
+Wed Dec 28 18:25:01 2016: engine server start
+
+***********************************************************
+Thu Dec 29 18:25:01 2016: engine server start
+
+***********************************************************
+Wed Jan  4 18:25:02 2017: engine server start
+
+***********************************************************
+Thu Jan  5 18:25:01 2017: engine server start
+
+***********************************************************
+Fri Jan  6 18:25:01 2017: engine server start
+
+***********************************************************
+Sat Jan  7 18:25:01 2017: engine server start
+
+***********************************************************
+Thu Jan 12 18:25:01 2017: engine server start
+
+***********************************************************
+Fri Jan 13 18:25:01 2017: engine server start
+
+***********************************************************
+Sat Jan 14 18:25:01 2017: engine server start
+
+***********************************************************
+Sun Jan 15 18:25:01 2017: engine server start
+
+***********************************************************
+Mon Jan 16 18:25:01 2017: engine server start
+
+***********************************************************
+Tue Jan 17 18:25:01 2017: engine server start
+
+***********************************************************
+Wed Jan 18 18:25:01 2017: engine server start
+
+***********************************************************
+Thu Jan 19 18:25:01 2017: engine server start
+
+***********************************************************
+Wed Apr 19 18:25:02 2017: engine server start
+Can not connect to beanstalk server
+***********************************************************
+Thu Apr 20 18:25:02 2017: engine server start
+Can not connect to beanstalk server
+***********************************************************
+Fri Apr 21 18:25:04 2017: engine server start
+Can not connect to beanstalk server
+***********************************************************
+Mon Jun  5 18:25:02 2017: engine server start
+Can not connect to beanstalk server
+***********************************************************
+Thu Jun  8 18:25:02 2017: engine server start
+Can not connect to beanstalk server
+***********************************************************
+Sat Jun 10 18:25:02 2017: engine server start
+Can not connect to beanstalk server
+***********************************************************
+Sun Jun 11 18:25:02 2017: engine server start
+Can not connect to beanstalk server
+***********************************************************
+Mon Jun 12 18:25:01 2017: engine server start
+Can not connect to beanstalk server
+***********************************************************
+Tue Jun 13 18:25:02 2017: engine server start
+Can not connect to beanstalk server
+***********************************************************
+Wed Jun 14 18:25:02 2017: engine server start
+Can not connect to beanstalk server
+***********************************************************
+Thu Jun 15 18:25:02 2017: engine server start
+Can not connect to beanstalk server
+***********************************************************
+Mon Jun 19 18:25:01 2017: engine server start
+Can not connect to beanstalk server
+***********************************************************
+Wed Jun 21 18:25:01 2017: engine server start
+Can not connect to beanstalk server
+***********************************************************
+Mon Jun 26 18:25:01 2017: engine server start
+Can not connect to beanstalk server
+***********************************************************
+Tue Jun 27 18:30:19 2017: engine server start
+Can not connect to beanstalk server
+***********************************************************
+Wed Jun 28 18:25:02 2017: engine server start
+Can not connect to beanstalk server
+***********************************************************
+Mon Nov 13 18:25:01 2017: engine server start
+Can not connect to beanstalk server
+***********************************************************
+Tue Nov 14 18:25:01 2017: engine server start
+Can not connect to beanstalk server
+***********************************************************
+Wed Nov 15 18:25:02 2017: engine server start
+Can not connect to beanstalk server
+***********************************************************
+Mon Dec  4 18:25:01 2017: engine server start
+Can not connect to beanstalk server
+***********************************************************
+Fri Mar  9 18:25:01 2018: engine server start
+Can not connect to beanstalk server

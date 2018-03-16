@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+	   xmlns:context="http://www.springframework.org/schema/context"
+	   xmlns:tx="http://www.springframework.org/schema/tx"
+	   xmlns:mongo="http://www.springframework.org/schema/data/mongo"
+	   xmlns:mvc="http://www.springframework.org/schema/mvc"
+	   xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/aop
+http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-3.0.xsd
+http://www.springframework.org/schema/tx
+http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/data/mongo http://www.springframework.org/schema/data/mongo/spring-mongo.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+	<context:annotation-config /> <!-- 自动注入processor的功能-->
+	<context:component-scan base-package="com.song" />
+	<!--指定哪些-->
+	<!--该配置项其实也包含了自动注入上述processor的功能，因此当使用<context:component-scan/>后，即可将<context:annotation-config/>省去。-->
+	<tx:annotation-driven transaction-manager="transactionManager"/>
+	<!--@Transactional 事务管理器驱动定义 ，事务仅与数据库相关-->
+
+
+	<!-- Database -->
+	<!-- 告知外部的database.propertise文件到spring容器中 -->
+	<!--<list>
+		<value>classpath:database.prppertise</value>绑定外部写的database.prppertise属性文件的路径
+	</list>   加载多个的时候这样-->
+
+	<bean
+			class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="location">
+			<value>classpath:database.properties</value>  <!-- 绑定外部写的database.prppertise属性文件的路径 -->
+		</property>
+	</bean>
+
+
+	<!--定义事务管理
+	器配置的时候，需要有一个事务管理器，如果是JDBC，那么对应的事务管理器就是
+	DataSourceTransactionManager，如果应用的是hibernate，则管理器就变成了HibernateTransactionManager，需要注入一个数据源对象。-->
+	<!--事务管理器 -->
+	<bean id="transactionManager"
+		  class="org.springframework.orm.hibernate3.HibernateTransactionManager"> <!--hibernate   事务管理器-->
+		<property name="sessionFactory" ref="sessionFactory" />  <!--ref 定向 事务管理器  到  hibernate  详细配置-->
+	</bean>
+
+	<!-- 配置数据源的驱动连接，这样配置的优势在于：效率得到了提高，具有pool池，我们在进行增删
+                              改查时就不用每次都要连接数据库这样的一个操作。 -->
+	<bean id="dataSource"
+		  class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="${jdbc.driverClassName}" />
+		<property name="url" value="${jdbc.url}" />
+		<property name="username" value="${jdbc.username}" />
+		<property name="password" value="${jdbc.password}" />
+
+	</bean>
+
+	<!-- Hibernate session factory -->
+	<!--Spring 框架，可以使用
+	AnnotationSessionFactoryBean 类轻松建立一个基于注释的 Hibernate 会话工厂-->
+	<bean id="sessionFactory"
+		  class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean">
+
+		<property name="dataSource">
+			<ref bean="dataSource" />  <!-- 配置数据源 Hibernate支持  -->
+		</property>
+
+		<!--hibernateProperties  自身属性 格式固定-->
+		<property name="hibernateProperties">
+			<props>
+				<prop key="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</prop>
+				<prop key="hibernate.show_sql">true</prop>
+				<prop key="hibernate.format_sql">false</prop>
+				<prop key="hibernate.hbm2ddl.auto">validate</prop>
+			</props>
+		</property>
+
+		<!--指明使用标注的实体类-->
+		<property name="annotatedClasses">
+			<list>
+				<value>com.song.model.mysqlmodel.User</value>
+				<value>com.song.model.mysqlmodel.ReplyTask</value>
+				<value>com.song.model.mysqlmodel.ReplyContent</value>
+				<value>com.song.model.mysqlmodel.Site</value>
+				<value>com.song.model.mysqlmodel.Posts</value>
+			</list>
+		</property>
+	</bean>
+
+
+	<mongo:mongo host="192.168.8.25" port="27017" />
+
+	<!-- mongo的工厂，通过它来取得mongo实例,dbname为mongodb的数据库名，没有的话会自动创建 -->
+	<mongo:db-factory dbname="test_mongodb" mongo-ref="mongo" />
+
+	<!-- mongodb的主要操作对象，所有对mongodb的增删改查的操作都是通过它完成 -->
+	<bean id="mongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
+		<constructor-arg name="mongoDbFactory" ref="mongoDbFactory" />
+	</bean>
+
+	<!-- 映射转换器，扫描back-package目录下的文件，根据注释，把它们作为mongodb的一个collection的映射 -->
+	<mongo:mapping-converter base-package="com.song.model.mongomodel" />
+	<bean id="mappingContext" class="org.springframework.data.mongodb.core.mapping.MongoMappingContext" />
+
+	<!-- 配置mongodb映射类型 -->
+	<bean id="mappingMongoConverter" class="org.springframework.data.mongodb.core.convert.MappingMongoConverter">
+		<constructor-arg name="mongoDbFactory" ref="mongoDbFactory" />
+		<constructor-arg name="mappingContext" ref="mappingContext" />
+		<property name="typeMapper" ref="defaultMongoTypeMapper" />
+	</bean>
+	<bean id="defaultMongoTypeMapper" class="org.springframework.data.mongodb.core.convert.DefaultMongoTypeMapper">
+		<constructor-arg name="typeKey">
+			<null /><!-- 这里设置为空,可以把 spring data mongodb 多余保存的_class字段去掉 -->
+		</constructor-arg>
+	</bean>
+
+	<!-- mongodb bean的仓库目录，会自动扫描扩展了MongoRepository接口的接口进行注入 -->
+	<mongo:repositories base-package="com.song.dao.mongoimpl" />
+
+	<!-- 输出对象转JSON支持 -->
+
+
+</beans>

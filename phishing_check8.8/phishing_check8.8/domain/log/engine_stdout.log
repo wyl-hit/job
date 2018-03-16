@@ -1,0 +1,33 @@
+
+***********************************************************
+Sat Aug  1 16:12:32 2015: engine server start
+Sat Aug  1 16:12:32 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 16:12:32 2015: server register
+Sat Aug  1 16:12:32 2015: monitor port 23391
+————————————————————————————————————————————————————
+
+***********************************************************
+Sat Aug  1 17:46:40 2015: engine server start
+Sat Aug  1 17:46:40 2015: server register
+Sat Aug  1 17:46:40 2015: monitor port 23391
+————————————————————————————————————————————————————
+Sat Aug  1 17:47:10 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 20:50:51 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 21:11:53 2015  request from : ('192.168.174.128', 56835): engine message_type : 0 task_id : 86 
+Sat Aug  1 21:11:53 2015  |*|receive task_id|*|: 86
+Sat Aug  1 21:11:53 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 21:11:53 2015  connect mongo win, ip: 192.168.65.148
+Sat Aug  1 21:11:53 2015  engine stuck check start task_id: 86
+Sat Aug  1 21:11:53 2015  |*|engine start|*|, task_id: 86
+http://www.icbc.com.cn/
+Sat Aug  1 21:11:56 2015  message ip: 192.168.174.128, port: 23450, engine_type: 00, message_type: 5, for task: 86
+Sat Aug  1 21:11:56 2015 |*|engine win over|*|, task_id: 86
+Sat Aug  1 21:12:53 2015 engine stuck check quit task_id: 86: 
+
+***********************************************************
+Sun Aug  2 11:51:28 2015: engine server start
+Sun Aug  2 11:51:28 2015: server register
+Sun Aug  2 11:51:28 2015: monitor port 23391
+————————————————————————————————————————————————————
+Sun Aug  2 11:51:58 2015  connect mysql win, ip: 192.168.65.148
+Sun Aug  2 16:33:41 2015  connect mysql win, ip: 192.168.65.148

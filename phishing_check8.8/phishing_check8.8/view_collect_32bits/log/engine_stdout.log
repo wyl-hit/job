@@ -1,0 +1,381 @@
+Sat Aug  1 20:13:33 2015  request from : ('192.168.174.128', 47839): engine message_type : 0 task_id : 81 
+Sat Aug  1 20:13:33 2015  |*|view receive task_id|*|: 81
+Sat Aug  1 20:13:33 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 20:13:33 2015  connect mongo win, ip: 192.168.65.148
+http://cpuzt.cc/
+......*...*
+optimization finished, #iter = 9548
+nu = 0.015684
+obj = -73758.267002, rho = -7.478708
+nSV = 54, nBSV = 31
+...*
+optimization finished, #iter = 3825
+nu = 0.008348
+obj = -36119.291460, rho = -15.099902
+nSV = 36, nBSV = 18
+...*
+optimization finished, #iter = 744
+nu = 0.021282
+obj = -7259.782396, rho = -5.085399
+nSV = 13, nBSV = 1
+Total nSV = 91
+Accuracy = 0% (0/18) (classification)
+http://www.138.gg/
+......*...*
+optimization finished, #iter = 9548
+nu = 0.015684
+obj = -73758.267002, rho = -7.478708
+nSV = 54, nBSV = 31
+...*
+optimization finished, #iter = 3825
+nu = 0.008348
+obj = -36119.291460, rho = -15.099902
+nSV = 36, nBSV = 18
+...*
+optimization finished, #iter = 744
+nu = 0.021282
+obj = -7259.782396, rho = -5.085399
+nSV = 13, nBSV = 1
+Total nSV = 91
+Accuracy = 0% (0/1) (classification)
+http://www.bjstkc.com/
+......*...*
+optimization finished, #iter = 9548
+nu = 0.015684
+obj = -73758.267002, rho = -7.478708
+nSV = 54, nBSV = 31
+...*
+optimization finished, #iter = 3825
+nu = 0.008348
+obj = -36119.291460, rho = -15.099902
+nSV = 36, nBSV = 18
+...*
+optimization finished, #iter = 744
+nu = 0.021282
+obj = -7259.782396, rho = -5.085399
+nSV = 13, nBSV = 1
+Total nSV = 91
+Sat Aug  1 20:13:42 2015  message ip: 192.168.174.128, port: 23450, engine_type: 00, message_type: 10, for task: 81
+Sat Aug  1 20:13:42 2015 |*|engine win over|*|, task_id: 81
+Sat Aug  1 20:48:43 2015  request from : ('192.168.174.128', 47919): engine message_type : 0 task_id : 82 
+Sat Aug  1 20:48:43 2015  |*|view receive task_id|*|: 82
+Sat Aug  1 20:48:43 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 20:48:43 2015  connect mongo win, ip: 192.168.65.148
+http://cpuzt.cc/
+......*...*
+optimization finished, #iter = 9548
+nu = 0.015684
+obj = -73758.267002, rho = -7.478708
+nSV = 54, nBSV = 31
+...*
+optimization finished, #iter = 3825
+nu = 0.008348
+obj = -36119.291460, rho = -15.099902
+nSV = 36, nBSV = 18
+...*
+optimization finished, #iter = 744
+nu = 0.021282
+obj = -7259.782396, rho = -5.085399
+nSV = 13, nBSV = 1
+Total nSV = 91
+Accuracy = 0% (0/18) (classification)
+http://www.138.gg/
+......*...*
+optimization finished, #iter = 9548
+nu = 0.015684
+obj = -73758.267002, rho = -7.478708
+nSV = 54, nBSV = 31
+...*
+optimization finished, #iter = 3825
+nu = 0.008348
+obj = -36119.291460, rho = -15.099902
+nSV = 36, nBSV = 18
+...*
+optimization finished, #iter = 744
+nu = 0.021282
+obj = -7259.782396, rho = -5.085399
+nSV = 13, nBSV = 1
+Total nSV = 91
+Accuracy = 0% (0/1) (classification)
+http://www.bjstkc.com/
+......*...*
+optimization finished, #iter = 9548
+nu = 0.015684
+obj = -73758.267002, rho = -7.478708
+nSV = 54, nBSV = 31
+...*
+optimization finished, #iter = 3825
+nu = 0.008348
+obj = -36119.291460, rho = -15.099902
+nSV = 36, nBSV = 18
+...*
+optimization finished, #iter = 744
+nu = 0.021282
+obj = -7259.782396, rho = -5.085399
+nSV = 13, nBSV = 1
+Total nSV = 91
+Sat Aug  1 20:48:45 2015  message ip: 192.168.174.128, port: 23450, engine_type: 00, message_type: 10, for task: 82
+Sat Aug  1 20:48:45 2015 |*|engine win over|*|, task_id: 82
+Sat Aug  1 20:50:44 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 21:03:28 2015  request from : ('192.168.174.128', 47979): engine message_type : 0 task_id : 84 
+Sat Aug  1 21:03:28 2015  |*|view receive task_id|*|: 84
+Sat Aug  1 21:03:28 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 21:03:28 2015  connect mongo win, ip: 192.168.65.148
+http://cpuzt.cc/
+......*...*
+optimization finished, #iter = 9548
+nu = 0.015684
+obj = -73758.267002, rho = -7.478708
+nSV = 54, nBSV = 31
+...*
+optimization finished, #iter = 3825
+nu = 0.008348
+obj = -36119.291460, rho = -15.099902
+nSV = 36, nBSV = 18
+...*
+optimization finished, #iter = 744
+nu = 0.021282
+obj = -7259.782396, rho = -5.085399
+nSV = 13, nBSV = 1
+Total nSV = 91
+Accuracy = 0% (0/18) (classification)
+http://www.138.gg/
+......*...*
+optimization finished, #iter = 9548
+nu = 0.015684
+obj = -73758.267002, rho = -7.478708
+nSV = 54, nBSV = 31
+...*
+optimization finished, #iter = 3825
+nu = 0.008348
+obj = -36119.291460, rho = -15.099902
+nSV = 36, nBSV = 18
+...*
+optimization finished, #iter = 744
+nu = 0.021282
+obj = -7259.782396, rho = -5.085399
+nSV = 13, nBSV = 1
+Total nSV = 91
+Accuracy = 0% (0/1) (classification)
+http://www.bjstkc.com/
+......*...*
+optimization finished, #iter = 9548
+nu = 0.015684
+obj = -73758.267002, rho = -7.478708
+nSV = 54, nBSV = 31
+...*
+optimization finished, #iter = 3825
+nu = 0.008348
+obj = -36119.291460, rho = -15.099902
+nSV = 36, nBSV = 18
+...*
+optimization finished, #iter = 744
+nu = 0.021282
+obj = -7259.782396, rho = -5.085399
+nSV = 13, nBSV = 1
+Total nSV = 91
+Sat Aug  1 21:03:31 2015  message ip: 192.168.174.128, port: 23450, engine_type: 00, message_type: 10, for task: 84
+Sat Aug  1 21:03:31 2015 |*|engine win over|*|, task_id: 84
+Sat Aug  1 21:04:13 2015  request from : ('192.168.174.128', 48008): engine message_type : 0 task_id : 83 
+Sat Aug  1 21:04:13 2015  |*|view receive task_id|*|: 83
+Sat Aug  1 21:04:13 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 21:04:13 2015  connect mongo win, ip: 192.168.65.148
+http://cpuzt.cc/
+......*...*
+optimization finished, #iter = 9548
+nu = 0.015684
+obj = -73758.267002, rho = -7.478708
+nSV = 54, nBSV = 31
+...*
+optimization finished, #iter = 3825
+nu = 0.008348
+obj = -36119.291460, rho = -15.099902
+nSV = 36, nBSV = 18
+...*
+optimization finished, #iter = 744
+nu = 0.021282
+obj = -7259.782396, rho = -5.085399
+nSV = 13, nBSV = 1
+Total nSV = 91
+Accuracy = 0% (0/18) (classification)
+http://www.138.gg/
+......*...*
+optimization finished, #iter = 9548
+nu = 0.015684
+obj = -73758.267002, rho = -7.478708
+nSV = 54, nBSV = 31
+...*
+optimization finished, #iter = 3825
+nu = 0.008348
+obj = -36119.291460, rho = -15.099902
+nSV = 36, nBSV = 18
+...*
+optimization finished, #iter = 744
+nu = 0.021282
+obj = -7259.782396, rho = -5.085399
+nSV = 13, nBSV = 1
+Total nSV = 91
+Accuracy = 0% (0/1) (classification)
+http://www.bjstkc.com/
+......*...*
+optimization finished, #iter = 9548
+nu = 0.015684
+obj = -73758.267002, rho = -7.478708
+nSV = 54, nBSV = 31
+...*
+optimization finished, #iter = 3825
+nu = 0.008348
+obj = -36119.291460, rho = -15.099902
+nSV = 36, nBSV = 18
+...*
+optimization finished, #iter = 744
+nu = 0.021282
+obj = -7259.782396, rho = -5.085399
+nSV = 13, nBSV = 1
+Total nSV = 91
+Sat Aug  1 21:04:15 2015  message ip: 192.168.174.128, port: 23450, engine_type: 00, message_type: 10, for task: 83
+Sat Aug  1 21:04:15 2015 |*|engine win over|*|, task_id: 83
+Sat Aug  1 21:12:01 2015  request from : ('192.168.174.128', 48098): engine message_type : 0 task_id : 86 
+Sat Aug  1 21:12:01 2015  |*|view receive task_id|*|: 86
+Sat Aug  1 21:12:01 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 21:12:01 2015  connect mongo win, ip: 192.168.65.148
+http://www.1cbc.com.cn/icbc.asp
+......*...*
+optimization finished, #iter = 9548
+nu = 0.015684
+obj = -73758.267002, rho = -7.478708
+nSV = 54, nBSV = 31
+...*
+optimization finished, #iter = 3825
+nu = 0.008348
+obj = -36119.291460, rho = -15.099902
+nSV = 36, nBSV = 18
+...*
+optimization finished, #iter = 744
+nu = 0.021282
+obj = -7259.782396, rho = -5.085399
+nSV = 13, nBSV = 1
+Total nSV = 91
+Accuracy = 0% (0/6) (classification)
+http://cpuzt.cc/
+......*...*
+optimization finished, #iter = 9548
+nu = 0.015684
+obj = -73758.267002, rho = -7.478708
+nSV = 54, nBSV = 31
+...*
+optimization finished, #iter = 3825
+nu = 0.008348
+obj = -36119.291460, rho = -15.099902
+nSV = 36, nBSV = 18
+...*
+optimization finished, #iter = 744
+nu = 0.021282
+obj = -7259.782396, rho = -5.085399
+nSV = 13, nBSV = 1
+Total nSV = 91
+Accuracy = 0% (0/23) (classification)
+http://www.138.gg/
+......*...*
+optimization finished, #iter = 9548
+nu = 0.015684
+obj = -73758.267002, rho = -7.478708
+nSV = 54, nBSV = 31
+...*
+optimization finished, #iter = 3825
+nu = 0.008348
+obj = -36119.291460, rho = -15.099902
+nSV = 36, nBSV = 18
+...*
+optimization finished, #iter = 744
+nu = 0.021282
+obj = -7259.782396, rho = -5.085399
+nSV = 13, nBSV = 1
+Total nSV = 91
+Accuracy = 0% (0/1) (classification)
+http://www.bjstkc.com/
+......*...*
+optimization finished, #iter = 9548
+nu = 0.015684
+obj = -73758.267002, rho = -7.478708
+nSV = 54, nBSV = 31
+...*
+optimization finished, #iter = 3825
+nu = 0.008348
+obj = -36119.291460, rho = -15.099902
+nSV = 36, nBSV = 18
+...*
+optimization finished, #iter = 744
+nu = 0.021282
+obj = -7259.782396, rho = -5.085399
+nSV = 13, nBSV = 1
+Total nSV = 91
+Sat Aug  1 21:12:07 2015  message ip: 192.168.174.128, port: 23450, engine_type: 00, message_type: 10, for task: 86
+Sat Aug  1 21:12:07 2015 |*|engine win over|*|, task_id: 86
+Sat Aug  1 21:20:41 2015  request from : ('192.168.174.128', 48132): engine message_type : 0 task_id : 87 
+Sat Aug  1 21:20:41 2015  |*|view receive task_id|*|: 87
+Sat Aug  1 21:20:41 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 21:20:41 2015  connect mongo win, ip: 192.168.65.148
+http://cpuzt.cc/
+......*...*
+optimization finished, #iter = 9548
+nu = 0.015684
+obj = -73758.267002, rho = -7.478708
+nSV = 54, nBSV = 31
+...*
+optimization finished, #iter = 3825
+nu = 0.008348
+obj = -36119.291460, rho = -15.099902
+nSV = 36, nBSV = 18
+...*
+optimization finished, #iter = 744
+nu = 0.021282
+obj = -7259.782396, rho = -5.085399
+nSV = 13, nBSV = 1
+Total nSV = 91
+Accuracy = 0% (0/18) (classification)
+http://www.138.gg/
+......*...*
+optimization finished, #iter = 9548
+nu = 0.015684
+obj = -73758.267002, rho = -7.478708
+nSV = 54, nBSV = 31
+...*
+optimization finished, #iter = 3825
+nu = 0.008348
+obj = -36119.291460, rho = -15.099902
+nSV = 36, nBSV = 18
+...*
+optimization finished, #iter = 744
+nu = 0.021282
+obj = -7259.782396, rho = -5.085399
+nSV = 13, nBSV = 1
+Total nSV = 91
+Accuracy = 0% (0/1) (classification)
+http://www.bjstkc.com/
+......*...*
+optimization finished, #iter = 9548
+nu = 0.015684
+obj = -73758.267002, rho = -7.478708
+nSV = 54, nBSV = 31
+...*
+optimization finished, #iter = 3825
+nu = 0.008348
+obj = -36119.291460, rho = -15.099902
+nSV = 36, nBSV = 18
+...*
+optimization finished, #iter = 744
+nu = 0.021282
+obj = -7259.782396, rho = -5.085399
+nSV = 13, nBSV = 1
+Total nSV = 91
+Sat Aug  1 21:20:44 2015  message ip: 192.168.174.128, port: 23450, engine_type: 00, message_type: 10, for task: 87
+Sat Aug  1 21:20:44 2015 |*|engine win over|*|, task_id: 87
+
+***********************************************************
+Sun Aug  2 11:53:16 2015: engine server start
+Sun Aug  2 11:53:16 2015: server register
+Sun Aug  2 11:53:16 2015: monitor port 23467
+————————————————————————————————————————————————————
+Sun Aug  2 11:53:46 2015  connect mysql win, ip: 192.168.65.148
+Sun Aug  2 16:33:41 2015  connect mysql win, ip: 192.168.65.148

@@ -1,0 +1,556 @@
+
+***********************************************************
+Sat Aug  1 16:12:52 2015: engine server start
+————————————————————————————————————————————————————
+
+***********************************************************
+Sat Aug  1 17:47:00 2015: engine server start
+————————————————————————————————————————————————————
+
+***********************************************************
+Sat Aug  1 20:37:35 2015: engine server start
+————————————————————————————————————————————————————
+
+***********************************************************
+Sun Aug  2 11:52:07 2015: engine server start
+————————————————————————————————————————————————————
+Sun Aug  2 14:52:35 2015  Sun Aug  2 14:52:35 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (111) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (111)")
+Sun Aug  2 14:53:05 2015  Sun Aug  2 14:53:05 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (111) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (111)")
+Sun Aug  2 14:53:38 2015  Sun Aug  2 14:53:38 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 14:54:11 2015  Sun Aug  2 14:54:11 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 14:54:44 2015  Sun Aug  2 14:54:44 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 14:55:17 2015  Sun Aug  2 14:55:17 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 14:55:49 2015  Sun Aug  2 14:55:49 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 14:56:25 2015  Sun Aug  2 14:56:25 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 14:56:56 2015  Sun Aug  2 14:56:56 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 14:57:29 2015  Sun Aug  2 14:57:29 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 14:58:02 2015  Sun Aug  2 14:58:02 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 14:58:35 2015  Sun Aug  2 14:58:35 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 14:59:08 2015  Sun Aug  2 14:59:08 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 14:59:41 2015  Sun Aug  2 14:59:41 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:00:14 2015  Sun Aug  2 15:00:14 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:00:47 2015  Sun Aug  2 15:00:47 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:01:20 2015  Sun Aug  2 15:01:20 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:01:53 2015  Sun Aug  2 15:01:53 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:02:26 2015  Sun Aug  2 15:02:26 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:02:59 2015  Sun Aug  2 15:02:59 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:03:29 2015  Sun Aug  2 15:03:29 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:04:02 2015  Sun Aug  2 15:04:02 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:04:35 2015  Sun Aug  2 15:04:35 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:05:08 2015  Sun Aug  2 15:05:08 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:05:41 2015  Sun Aug  2 15:05:41 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:06:14 2015  Sun Aug  2 15:06:14 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:06:47 2015  Sun Aug  2 15:06:47 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:07:20 2015  Sun Aug  2 15:07:20 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:07:53 2015  Sun Aug  2 15:07:53 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:08:26 2015  Sun Aug  2 15:08:26 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:08:59 2015  Sun Aug  2 15:08:59 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:09:32 2015  Sun Aug  2 15:09:32 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:10:05 2015  Sun Aug  2 15:10:05 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:10:38 2015  Sun Aug  2 15:10:38 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:11:11 2015  Sun Aug  2 15:11:11 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:11:44 2015  Sun Aug  2 15:11:44 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:12:17 2015  Sun Aug  2 15:12:17 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:12:50 2015  Sun Aug  2 15:12:50 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:13:23 2015  Sun Aug  2 15:13:23 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:13:56 2015  Sun Aug  2 15:13:56 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:14:29 2015  Sun Aug  2 15:14:29 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:15:02 2015  Sun Aug  2 15:15:02 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:15:35 2015  Sun Aug  2 15:15:35 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:16:08 2015  Sun Aug  2 15:16:08 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:16:41 2015  Sun Aug  2 15:16:41 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:17:14 2015  Sun Aug  2 15:17:14 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:17:47 2015  Sun Aug  2 15:17:47 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:18:20 2015  Sun Aug  2 15:18:20 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:18:53 2015  Sun Aug  2 15:18:53 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:19:26 2015  Sun Aug  2 15:19:26 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:19:59 2015  Sun Aug  2 15:19:59 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:20:32 2015  Sun Aug  2 15:20:32 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:21:05 2015  Sun Aug  2 15:21:05 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:21:38 2015  Sun Aug  2 15:21:38 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:22:11 2015  Sun Aug  2 15:22:11 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:22:44 2015  Sun Aug  2 15:22:44 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:23:17 2015  Sun Aug  2 15:23:17 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:23:50 2015  Sun Aug  2 15:23:50 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:24:23 2015  Sun Aug  2 15:24:23 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 16:35:41 2015  Sun Aug  2 16:35:41 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (101) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (101)")

@@ -1,0 +1,33 @@
+
+***********************************************************
+Sat Aug  1 16:13:02 2015: engine server start
+Sat Aug  1 16:13:02 2015: server register
+Sat Aug  1 16:13:02 2015: monitor port 23473
+————————————————————————————————————————————————————
+Sat Aug  1 16:13:32 2015  connect mysql win, ip: 192.168.65.148
+
+***********************************************************
+Sat Aug  1 17:47:12 2015: engine server start
+Sat Aug  1 17:47:12 2015: server register
+Sat Aug  1 17:47:12 2015: monitor port 23473
+————————————————————————————————————————————————————
+Sat Aug  1 17:47:42 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 20:50:53 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 21:09:11 2015  request from : ('192.168.174.128', 38531): engine message_type : 0 task_id : 85 
+Sat Aug  1 21:09:11 2015  |*|receive task_id|*|: 85
+Sat Aug  1 21:09:11 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 21:09:11 2015  connect mongo win, ip: 192.168.65.148
+Sat Aug  1 21:09:11 2015  |*|engine start|*|, task_id: 85
+Sat Aug  1 21:09:11 2015  connect mysql win, ip: 192.168.65.148
+whois_reverse domain []
+whois_reverse domain []
+Sat Aug  1 21:09:13 2015  message ip: 192.168.174.128, port: 23450, engine_type: 00, message_type: 9, for task: 85
+Sat Aug  1 21:09:13 2015 |*|engine win over|*|, task_id: 85
+
+***********************************************************
+Sun Aug  2 11:53:31 2015: engine server start
+Sun Aug  2 11:53:31 2015: server register
+Sun Aug  2 11:53:31 2015: monitor port 23473
+————————————————————————————————————————————————————
+Sun Aug  2 11:54:01 2015  connect mysql win, ip: 192.168.65.148
+Sun Aug  2 16:33:41 2015  connect mysql win, ip: 192.168.65.148

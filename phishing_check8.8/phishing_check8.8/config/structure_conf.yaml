@@ -1,0 +1,21 @@
+server:
+    ip: 192.168.174.128
+    port: 23469
+    type: '09'
+    server_num: 5
+mysql:
+    mysql_host: 192.168.65.148
+    mysql_db: phishing_check
+    mysql_user: root
+    mysql_password: 
+mongo:
+    mongo_db: phishing_check
+    mongo_host: 192.168.65.148
+    mongo_port: 27017
+    mongo_user: root
+    mongo_password:
+structure:
+    structure_num_compare_k: 0.03
+    structure_num_compare_b: 0.05
+    structure_area_compare_k: 0.03
+    structure_area_compare_b: 0.001

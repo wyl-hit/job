@@ -1,0 +1,948 @@
+
+***********************************************************
+Sat Aug  1 20:31:01 2015: engine server start
+————————————————————————————————————————————————————
+Sat Aug  1 20:31:38 2015  url_get_websave maybe MultipleObjectsReturned, url: http://socialmedia-reseller.com/wp-content/themes/Profil/mpp/mpp/update/index.htm/, url_type: counterfeit, get_type: get
+Traceback (most recent call last):
+  File "../server_base/mongo_handle.py", line 373, in url_get_websave
+    CounterfeitWebSave, 'objects').get(web_url=url)
+  File "build/bdist.linux-i686/egg/mongoengine/queryset/manager.py", line 37, in __get__
+    queryset = queryset_class(owner, owner._get_collection())
+  File "build/bdist.linux-i686/egg/mongoengine/queryset/base.py", line 56, in __init__
+    self._loaded_fields = QueryFieldList()
+  File "build/bdist.linux-i686/egg/mongoengine/queryset/field_list.py", line 20, in __init__
+    self.fields = set(fields or [])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 120, in dct_dis
+    for i in range(length):
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 120, in dct_dis
+    for i in range(length):
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 164, in dis_visual
+    dis_dct = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 120, in dct_dis
+    for i in range(length):
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 120, in dct_dis
+    for i in range(length):
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 164, in dis_visual
+    dis_dct = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 120, in dct_dis
+    for i in range(length):
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 120, in dct_dis
+    for i in range(length):
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 120, in dct_dis
+    for i in range(length):
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 120, in dct_dis
+    for i in range(length):
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 120, in dct_dis
+    for i in range(length):
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 120, in dct_dis
+    for i in range(length):
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 120, in dct_dis
+    for i in range(length):
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 120, in dct_dis
+    for i in range(length):
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 120, in dct_dis
+    for i in range(length):
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 120, in dct_dis
+    for i in range(length):
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 120, in dct_dis
+    for i in range(length):
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 120, in dct_dis
+    for i in range(length):
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 120, in dct_dis
+    for i in range(length):
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 171, in dis_visual
+    element = self.dct_dis(f1[2], f2[2])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 121, in dct_dis
+    if d1[i] != d2[i]:
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 120, in dct_dis
+    for i in range(length):
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 164, in dis_visual
+    dis_dct = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 120, in dct_dis
+    for i in range(length):
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 120, in dct_dis
+    for i in range(length):
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 120, in dct_dis
+    for i in range(length):
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 120, in dct_dis
+    for i in range(length):
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 120, in dct_dis
+    for i in range(length):
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 173, in dis_visual
+    element = self.dct_dis(f1[2][0], f2[2][0])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 120, in dct_dis
+    for i in range(length):
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 165, in dis_visual
+    dis_tex = self.textural_dis(f1[2][1], f2[2][1])
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 31, in textural_dis
+    Mat = self.Similarity(initial, target)
+  File "/home/zxy/phishing_check/view_emd/emd_calculate.py", line 74, in Similarity
+    Sa = iterm_initial[-1]
+IndexError: string index out of range
+
+***********************************************************
+Sat Aug  1 20:37:40 2015: engine server start
+————————————————————————————————————————————————————
+
+***********************************************************
+Sat Aug  1 20:40:43 2015: engine server start
+————————————————————————————————————————————————————
+
+***********************************************************
+Sun Aug  2 11:53:24 2015: engine server start
+————————————————————————————————————————————————————
+Sun Aug  2 14:52:48 2015  Sun Aug  2 14:52:48 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (111) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (111)")
+Sun Aug  2 14:55:26 2015  Sun Aug  2 14:55:26 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (22) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (22)")
+Sun Aug  2 14:55:59 2015  Sun Aug  2 14:55:59 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 14:56:32 2015  Sun Aug  2 14:56:32 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 14:57:05 2015  Sun Aug  2 14:57:05 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 14:57:38 2015  Sun Aug  2 14:57:38 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 14:58:11 2015  Sun Aug  2 14:58:11 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 14:58:44 2015  Sun Aug  2 14:58:44 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 14:59:17 2015  Sun Aug  2 14:59:17 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 14:59:50 2015  Sun Aug  2 14:59:50 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:00:23 2015  Sun Aug  2 15:00:23 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:00:56 2015  Sun Aug  2 15:00:56 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:01:29 2015  Sun Aug  2 15:01:29 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:02:02 2015  Sun Aug  2 15:02:02 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:02:35 2015  Sun Aug  2 15:02:35 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:03:08 2015  Sun Aug  2 15:03:08 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:03:41 2015  Sun Aug  2 15:03:41 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:04:14 2015  Sun Aug  2 15:04:14 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:04:47 2015  Sun Aug  2 15:04:47 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:05:20 2015  Sun Aug  2 15:05:20 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:05:53 2015  Sun Aug  2 15:05:53 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:06:26 2015  Sun Aug  2 15:06:26 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:06:59 2015  Sun Aug  2 15:06:59 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:07:32 2015  Sun Aug  2 15:07:32 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:08:05 2015  Sun Aug  2 15:08:05 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:08:38 2015  Sun Aug  2 15:08:38 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:09:11 2015  Sun Aug  2 15:09:11 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:09:44 2015  Sun Aug  2 15:09:44 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:10:17 2015  Sun Aug  2 15:10:17 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:10:50 2015  Sun Aug  2 15:10:50 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:11:23 2015  Sun Aug  2 15:11:23 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:11:56 2015  Sun Aug  2 15:11:56 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:12:29 2015  Sun Aug  2 15:12:29 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:13:02 2015  Sun Aug  2 15:13:02 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:13:35 2015  Sun Aug  2 15:13:35 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:14:08 2015  Sun Aug  2 15:14:08 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:14:41 2015  Sun Aug  2 15:14:41 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:15:14 2015  Sun Aug  2 15:15:14 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:15:47 2015  Sun Aug  2 15:15:47 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:16:20 2015  Sun Aug  2 15:16:20 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:16:53 2015  Sun Aug  2 15:16:53 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:17:26 2015  Sun Aug  2 15:17:26 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:17:59 2015  Sun Aug  2 15:17:59 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:18:32 2015  Sun Aug  2 15:18:32 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:19:05 2015  Sun Aug  2 15:19:05 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:19:38 2015  Sun Aug  2 15:19:38 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:20:11 2015  Sun Aug  2 15:20:11 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:20:45 2015  Sun Aug  2 15:20:45 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:21:18 2015  Sun Aug  2 15:21:18 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:21:51 2015  Sun Aug  2 15:21:51 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:22:24 2015  Sun Aug  2 15:22:24 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:22:57 2015  Sun Aug  2 15:22:57 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:23:30 2015  Sun Aug  2 15:23:30 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 15:24:03 2015  Sun Aug  2 15:24:03 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (113) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (113)")
+Sun Aug  2 16:35:00 2015  Sun Aug  2 16:35:00 2015  Mysql Error 2003: Can't connect to MySQL server on '192.168.65.148' (22) sql: 
+Traceback (most recent call last):
+  File "../server_base/mysql_handle.py", line 74, in connect_MySQL
+    self.mysql_db, charset='utf8')
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/__init__.py", line 81, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/lib/python2.7/dist-packages/MySQLdb/connections.py", line 187, in __init__
+    super(Connection, self).__init__(*args, **kwargs2)
+OperationalError: (2003, "Can't connect to MySQL server on '192.168.65.148' (22)")

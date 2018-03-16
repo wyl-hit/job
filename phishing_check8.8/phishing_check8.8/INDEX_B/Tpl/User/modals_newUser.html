@@ -1,0 +1,129 @@
+
+<!-- 任务添加模态框-->
+<div class="modal fade" id="add_task">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">添加新用户</h4>
+			</div>
+			
+			<div class="modal-body">
+
+				<form role="form" class="form-horizontal">
+
+
+					<div class="row hide">
+						<div class="col-md-12">
+							<div class="alert alert-warning">
+								<strong>警告!</strong> 用户名称不能为空。
+							</div>
+						</div>
+					</div>
+				
+					<div class="row">
+						<div class="col-md-8">
+							
+							<div class="form-group no-margin taskname">
+								<input type="text"  id = "user_name"autofocus="" placeholder="User Name" class="form-control">
+							</div>
+							
+						</div>
+					</div>
+				
+					<div class="row">
+						<div class="col-md-8">
+							
+							<div class="form-group no-margin">
+								<input type="password" id = "psword"placeholder="Password" class="form-control">
+            					
+							</div>	
+							
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-8">
+							
+							<div class="form-group no-margin">
+								
+            					<input type="password"id = "re_psword" placeholder="Re-type Password" class="form-control">
+							</div>	
+							
+						</div>
+					</div>
+
+
+
+				</form>
+				
+			</div>
+			
+			<div class="modal-footer">
+				<button type="button" class="btn btn-white" data-dismiss="modal">关闭</button>
+				<button type="button" id="save_task" class="btn btn-info">保存</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- 任务修改模态框-->
+<div class="modal fade" id="edit_task">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">修改任务</h4>
+			</div>
+			
+			<div class="modal-body">
+
+				<form role="form" class="form-horizontal">
+
+
+					<div class="row hide">
+						<div class="col-md-12">
+							<div class="alert alert-warning">
+								<strong>警告!</strong> 任务名称不能为空。
+							</div>
+						</div>
+					</div>
+				
+					<div class="row">
+						<div class="col-md-12">
+							
+							<div class="form-group no-margin taskname">
+								<label for="task_name" class="control-label">任务名称</label>
+								
+								<input type="text" class="form-control" id="edit_tname" placeholder="Task's Name">
+							</div>
+							
+						</div>
+					</div>
+				
+					<div class="row">
+						<div class="col-md-12">
+							
+							<div class="form-group no-margin">
+								<label for="task_info" class="control-label">任务简介</label>
+								
+								<textarea class="form-control autogrow" id="edit_tinfo" placeholder="Write something about task's introduction"></textarea>
+							</div>	
+							
+						</div>
+					</div>
+					<input type="text" id="edit_tid" style="display:none" value="">
+
+
+				</form>
+				
+			</div>
+			
+			<div class="modal-footer">
+				<button type="button" class="btn btn-white" data-dismiss="modal">关闭</button>
+				<button type="button" id="update_task" class="btn btn-info">保存</button>
+			</div>
+		</div>
+	</div>
+</div>

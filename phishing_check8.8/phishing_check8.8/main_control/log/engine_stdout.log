@@ -1,0 +1,251 @@
+
+***********************************************************
+Sat Aug  1 16:12:52 2015: engine server start
+Sat Aug  1 16:12:52 2015: server register
+Sat Aug  1 16:12:52 2015: monitor port 23450
+————————————————————————————————————————————————————
+Sat Aug  1 16:13:22 2015  connect mysql win, ip: 192.168.65.148
+
+***********************************************************
+Sat Aug  1 17:47:00 2015: engine server start
+Sat Aug  1 17:47:00 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 17:47:00 2015: server register
+Sat Aug  1 17:47:00 2015: monitor port 23450
+————————————————————————————————————————————————————
+Sat Aug  1 17:49:40 2015  request from : ('192.168.174.128', 44441): engine message_type : 4 task_id : 54 
+Sat Aug  1 17:49:40 2015  control receive from qt_crawler engine task_id: 54
+Sat Aug  1 17:49:40 2015  message ip: 192.168.174.128, port: 23451, engine_type: 12, message_type: 0, for task: 54
+Sat Aug  1 17:49:40 2015  message ip: 192.168.174.128, port: 23467, engine_type: 07, message_type: 0, for task: 54
+Sat Aug  1 17:49:41 2015  request from : ('192.168.174.128', 44450): engine message_type : 7 task_id : 54 
+Sat Aug  1 17:49:41 2015 |*|task win over|*|, task_id: 54, task_state: 3
+Sat Aug  1 17:49:41 2015  request from : ('192.168.174.128', 44451): engine message_type : 10 task_id : 54 
+Sat Aug  1 17:49:41 2015 |*|task win over|*|, task_id: 54, task_state: 3
+Sat Aug  1 18:00:06 2015  request from : ('192.168.174.1', 53471): client message : qr77 
+Sat Aug  1 18:00:06 2015  control receive task_id start request: 77
+Sat Aug  1 18:00:06 2015  message ip: 192.168.174.128, port: 23464, engine_type: 04, message_type: 0, for task: 77
+Sat Aug  1 18:00:06 2015  request from : ('192.168.174.128', 44458): engine message_type : 2 task_id : 77 
+Sat Aug  1 18:00:06 2015  control receive from filtrate engine task_id: 77
+Sat Aug  1 18:00:06 2015  message ip: 192.168.174.128, port: 23435, engine_type: 05, message_type: 0, for task: 77
+Sat Aug  1 18:00:15 2015  request from : ('192.168.174.128', 44596): engine message_type : 3 task_id : 77 
+Sat Aug  1 18:00:15 2015  control receive from web_save engine task_id: 77
+Sat Aug  1 18:00:15 2015  message ip: 192.168.174.128, port: 23436, engine_type: 06, message_type: 0, for task: 77
+Sat Aug  1 18:00:15 2015  message ip: 192.168.174.128, port: 23468, engine_type: 08, message_type: 0, for task: 77
+Sat Aug  1 18:00:17 2015  request from : ('192.168.174.128', 44610): engine message_type : 4 task_id : 77 
+Sat Aug  1 18:00:17 2015  control receive from qt_crawler engine task_id: 77
+Sat Aug  1 18:00:17 2015  message ip: 192.168.174.128, port: 23451, engine_type: 12, message_type: 0, for task: 77
+Sat Aug  1 18:00:17 2015  message ip: 192.168.174.128, port: 23467, engine_type: 07, message_type: 0, for task: 77
+Sat Aug  1 18:00:17 2015  message ip: 192.168.174.128, port: 23469, engine_type: 09, message_type: 0, for task: 77
+Sat Aug  1 18:00:19 2015  request from : ('192.168.174.128', 44620): engine message_type : 10 task_id : 77 
+Sat Aug  1 18:00:20 2015  message ip: 192.168.174.128, port: 23470, engine_type: 10, message_type: 0, for task: 77
+Sat Aug  1 18:00:20 2015  request from : ('192.168.174.128', 44624): engine message_type : 7 task_id : 77 
+Sat Aug  1 18:00:27 2015  request from : ('192.168.174.128', 44626): engine message_type : 6 task_id : 77 
+Sat Aug  1 18:00:33 2015  request from : ('192.168.174.128', 44629): engine message_type : 7 task_id : 77 
+Sat Aug  1 18:00:39 2015  request from : ('192.168.174.128', 44630): engine message_type : 6 task_id : 77 
+Sat Aug  1 18:00:39 2015 |*|task win over|*|, task_id: 77, task_state: 3
+Sat Aug  1 18:19:35 2015  request from : ('192.168.174.1', 63829): client message : qr78 
+Sat Aug  1 18:19:35 2015  control receive task_id start request: 78
+Sat Aug  1 18:19:35 2015  message ip: 192.168.174.128, port: 23464, engine_type: 04, message_type: 0, for task: 78
+Sat Aug  1 18:19:35 2015  request from : ('192.168.174.128', 44637): engine message_type : 2 task_id : 78 
+Sat Aug  1 18:19:35 2015  control receive from filtrate engine task_id: 78
+Sat Aug  1 18:19:35 2015  message ip: 192.168.174.128, port: 23435, engine_type: 05, message_type: 0, for task: 78
+Sat Aug  1 19:26:30 2015  request from : ('192.168.174.1', 51054): client message : qs78 
+Sat Aug  1 19:26:30 2015  control receive task_id stop request: 78
+running_engine_list ['05']
+Sat Aug  1 19:26:30 2015  message ip: 192.168.174.128, port: 23435, engine_type: 05, message_type: 1, for task: 78
+Sat Aug  1 19:26:30 2015 |*|task win over|*|, task_id: 78, task_state: 3
+Sat Aug  1 19:27:32 2015  request from : ('192.168.174.1', 51596): client message : qr79 
+Sat Aug  1 19:27:32 2015  control receive task_id start request: 79
+Sat Aug  1 19:27:32 2015  message ip: 192.168.174.128, port: 23464, engine_type: 04, message_type: 0, for task: 79
+Sat Aug  1 19:27:33 2015  request from : ('192.168.174.128', 44653): engine message_type : 2 task_id : 79 
+Sat Aug  1 19:27:33 2015  control receive from filtrate engine task_id: 79
+Sat Aug  1 19:27:33 2015  message ip: 192.168.174.128, port: 23435, engine_type: 05, message_type: 0, for task: 79
+Sat Aug  1 19:27:40 2015  request from : ('192.168.174.128', 44661): engine message_type : 3 task_id : 79 
+Sat Aug  1 19:27:40 2015  control receive from web_save engine task_id: 79
+Sat Aug  1 19:27:40 2015  message ip: 192.168.174.128, port: 23436, engine_type: 06, message_type: 0, for task: 79
+Sat Aug  1 19:27:40 2015  message ip: 192.168.174.128, port: 23468, engine_type: 08, message_type: 0, for task: 79
+Sat Aug  1 19:27:45 2015  request from : ('192.168.174.128', 44674): engine message_type : 4 task_id : 79 
+Sat Aug  1 19:27:45 2015  control receive from qt_crawler engine task_id: 79
+Sat Aug  1 19:27:45 2015  message ip: 192.168.174.128, port: 23451, engine_type: 12, message_type: 0, for task: 79
+Sat Aug  1 19:27:45 2015  message ip: 192.168.174.128, port: 23467, engine_type: 07, message_type: 0, for task: 79
+Sat Aug  1 19:27:45 2015  message ip: 192.168.174.128, port: 23469, engine_type: 09, message_type: 0, for task: 79
+Sat Aug  1 19:27:50 2015  request from : ('192.168.174.128', 44683): engine message_type : 7 task_id : 79 
+Sat Aug  1 19:27:51 2015  request from : ('192.168.174.128', 44684): engine message_type : 10 task_id : 79 
+Sat Aug  1 19:27:51 2015  message ip: 192.168.174.128, port: 23470, engine_type: 10, message_type: 0, for task: 79
+Sat Aug  1 19:28:01 2015  request from : ('192.168.174.128', 44688): engine message_type : 6 task_id : 79 
+Sat Aug  1 19:28:16 2015  request from : ('192.168.174.128', 44691): engine message_type : 6 task_id : 79 
+Sat Aug  1 19:28:17 2015  request from : ('192.168.174.128', 44692): engine message_type : 7 task_id : 79 
+Sat Aug  1 19:32:04 2015  request from : ('192.168.174.1', 54257): client message : qr80 
+Sat Aug  1 19:32:04 2015  control receive task_id start request: 80
+Sat Aug  1 19:32:04 2015  message ip: 192.168.174.128, port: 23464, engine_type: 04, message_type: 0, for task: 80
+Sat Aug  1 19:32:04 2015  request from : ('192.168.174.128', 44699): engine message_type : 2 task_id : 80 
+Sat Aug  1 19:32:04 2015  control receive from filtrate engine task_id: 80
+Sat Aug  1 19:32:04 2015  message ip: 192.168.174.128, port: 23435, engine_type: 05, message_type: 0, for task: 80
+Sat Aug  1 19:32:13 2015  request from : ('192.168.174.128', 44706): engine message_type : 3 task_id : 80 
+Sat Aug  1 19:32:13 2015  control receive from web_save engine task_id: 80
+Sat Aug  1 19:32:13 2015  message ip: 192.168.174.128, port: 23436, engine_type: 06, message_type: 0, for task: 80
+Sat Aug  1 19:32:13 2015  message ip: 192.168.174.128, port: 23468, engine_type: 08, message_type: 0, for task: 80
+Sat Aug  1 19:32:14 2015  request from : ('192.168.174.128', 44720): engine message_type : 4 task_id : 80 
+Sat Aug  1 19:32:14 2015  control receive from qt_crawler engine task_id: 80
+Sat Aug  1 19:32:14 2015  message ip: 192.168.174.128, port: 23451, engine_type: 12, message_type: 0, for task: 80
+Sat Aug  1 19:32:14 2015  message ip: 192.168.174.128, port: 23467, engine_type: 07, message_type: 0, for task: 80
+Sat Aug  1 19:32:14 2015  message ip: 192.168.174.128, port: 23469, engine_type: 09, message_type: 0, for task: 80
+Sat Aug  1 19:32:16 2015  request from : ('192.168.174.128', 44729): engine message_type : 7 task_id : 80 
+Sat Aug  1 19:32:17 2015  request from : ('192.168.174.128', 44730): engine message_type : 10 task_id : 80 
+Sat Aug  1 19:32:17 2015  message ip: 192.168.174.128, port: 23470, engine_type: 10, message_type: 0, for task: 80
+Sat Aug  1 19:32:24 2015  request from : ('192.168.174.128', 44734): engine message_type : 6 task_id : 80 
+Sat Aug  1 19:32:33 2015  request from : ('192.168.174.128', 44737): engine message_type : 6 task_id : 80 
+Sat Aug  1 19:32:36 2015  request from : ('192.168.174.128', 44738): engine message_type : 7 task_id : 80 
+Sat Aug  1 20:13:08 2015  request from : ('192.168.174.1', 59914): client message : qr81 
+Sat Aug  1 20:13:08 2015  control receive task_id start request: 81
+Sat Aug  1 20:13:08 2015  message ip: 192.168.174.128, port: 23464, engine_type: 04, message_type: 0, for task: 81
+Sat Aug  1 20:13:08 2015  request from : ('192.168.174.128', 44743): engine message_type : 2 task_id : 81 
+Sat Aug  1 20:13:08 2015  control receive from filtrate engine task_id: 81
+Sat Aug  1 20:13:08 2015  message ip: 192.168.174.128, port: 23435, engine_type: 05, message_type: 0, for task: 81
+Sat Aug  1 20:13:27 2015  request from : ('192.168.174.128', 44750): engine message_type : 3 task_id : 81 
+Sat Aug  1 20:13:27 2015  control receive from web_save engine task_id: 81
+Sat Aug  1 20:13:27 2015  message ip: 192.168.174.128, port: 23436, engine_type: 06, message_type: 0, for task: 81
+Sat Aug  1 20:13:27 2015  message ip: 192.168.174.128, port: 23468, engine_type: 08, message_type: 0, for task: 81
+Sat Aug  1 20:13:33 2015  request from : ('192.168.174.128', 44762): engine message_type : 4 task_id : 81 
+Sat Aug  1 20:13:33 2015  control receive from qt_crawler engine task_id: 81
+Sat Aug  1 20:13:33 2015  message ip: 192.168.174.128, port: 23451, engine_type: 12, message_type: 0, for task: 81
+Sat Aug  1 20:13:33 2015  message ip: 192.168.174.128, port: 23467, engine_type: 07, message_type: 0, for task: 81
+Sat Aug  1 20:13:33 2015  message ip: 192.168.174.128, port: 23469, engine_type: 09, message_type: 0, for task: 81
+Sat Aug  1 20:13:41 2015  request from : ('192.168.174.128', 44771): engine message_type : 7 task_id : 81 
+Sat Aug  1 20:13:42 2015  request from : ('192.168.174.128', 44772): engine message_type : 10 task_id : 81 
+Sat Aug  1 20:13:42 2015  message ip: 192.168.174.128, port: 23470, engine_type: 10, message_type: 0, for task: 81
+Sat Aug  1 20:14:13 2015  request from : ('192.168.174.128', 44776): engine message_type : 6 task_id : 81 
+Sat Aug  1 20:14:51 2015  request from : ('192.168.174.128', 44779): engine message_type : 6 task_id : 81 
+Sat Aug  1 20:15:00 2015  request from : ('192.168.174.128', 44780): engine message_type : 7 task_id : 81 
+Sat Aug  1 20:29:14 2015  request from : ('192.168.174.128', 44788): engine message_type : 7 task_id : 81 
+Sat Aug  1 20:31:53 2015  request from : ('192.168.174.128', 44797): engine message_type : 7 task_id : 81 
+
+***********************************************************
+Sat Aug  1 20:37:35 2015: engine server start
+Sat Aug  1 20:37:35 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 20:37:35 2015: server register
+Sat Aug  1 20:37:35 2015: monitor port 23450
+————————————————————————————————————————————————————
+Sat Aug  1 20:38:33 2015  request from : ('192.168.174.128', 44810): engine message_type : 7 task_id : 81 
+Sat Aug  1 20:40:58 2015  request from : ('192.168.174.128', 44818): engine message_type : 6 task_id : 81 
+**********************
+Sat Aug  1 20:40:58 2015 |*|task win over|*|, task_id: 81, task_state: 3
+Sat Aug  1 20:48:35 2015  request from : ('192.168.174.1', 63017): client message : qr82 
+Sat Aug  1 20:48:35 2015  control receive task_id start request: 82
+Sat Aug  1 20:48:35 2015  message ip: 192.168.174.128, port: 23464, engine_type: 04, message_type: 0, for task: 82
+Sat Aug  1 20:48:35 2015  request from : ('192.168.174.128', 44823): engine message_type : 2 task_id : 82 
+Sat Aug  1 20:48:35 2015  control receive from filtrate engine task_id: 82
+Sat Aug  1 20:48:35 2015  message ip: 192.168.174.128, port: 23435, engine_type: 05, message_type: 0, for task: 82
+Sat Aug  1 20:48:41 2015  request from : ('192.168.174.128', 44830): engine message_type : 3 task_id : 82 
+Sat Aug  1 20:48:41 2015  control receive from web_save engine task_id: 82
+Sat Aug  1 20:48:41 2015  message ip: 192.168.174.128, port: 23436, engine_type: 06, message_type: 0, for task: 82
+Sat Aug  1 20:48:41 2015  message ip: 192.168.174.128, port: 23468, engine_type: 08, message_type: 0, for task: 82
+Sat Aug  1 20:48:43 2015  request from : ('192.168.174.128', 44843): engine message_type : 4 task_id : 82 
+Sat Aug  1 20:48:43 2015  control receive from qt_crawler engine task_id: 82
+Sat Aug  1 20:48:43 2015  message ip: 192.168.174.128, port: 23451, engine_type: 12, message_type: 0, for task: 82
+Sat Aug  1 20:48:43 2015  message ip: 192.168.174.128, port: 23467, engine_type: 07, message_type: 0, for task: 82
+Sat Aug  1 20:48:43 2015  message ip: 192.168.174.128, port: 23469, engine_type: 09, message_type: 0, for task: 82
+Sat Aug  1 20:48:44 2015  request from : ('192.168.174.128', 44852): engine message_type : 7 task_id : 82 
+Sat Aug  1 20:48:45 2015  request from : ('192.168.174.128', 44853): engine message_type : 10 task_id : 82 
+Sat Aug  1 20:48:45 2015  message ip: 192.168.174.128, port: 23470, engine_type: 10, message_type: 0, for task: 82
+Sat Aug  1 20:48:51 2015  request from : ('192.168.174.128', 44857): engine message_type : 6 task_id : 82 
+e_title_state None
+Sat Aug  1 20:49:02 2015  request from : ('192.168.174.128', 44860): engine message_type : 6 task_id : 82 
+e_view_emd_state None
+Sat Aug  1 20:49:05 2015  request from : ('192.168.174.128', 44861): engine message_type : 6 task_id : 82 
+**********************
+Sat Aug  1 20:49:05 2015 |*|task win over|*|, task_id: 82, task_state: 3
+Sat Aug  1 20:50:37 2015  connect mysql win, ip: 192.168.65.148
+Sat Aug  1 21:02:12 2015  request from : ('192.168.174.1', 54096): client message : qr83 
+Sat Aug  1 21:02:12 2015  control receive task_id start request: 83
+Sat Aug  1 21:02:12 2015  message ip: 192.168.174.128, port: 23435, engine_type: 05, message_type: 0, for task: 83
+Sat Aug  1 21:03:21 2015  request from : ('192.168.174.1', 54718): client message : qr84 
+Sat Aug  1 21:03:21 2015  control receive task_id start request: 84
+Sat Aug  1 21:03:21 2015  message ip: 192.168.174.128, port: 23464, engine_type: 04, message_type: 0, for task: 84
+Sat Aug  1 21:03:21 2015  request from : ('192.168.174.128', 44883): engine message_type : 2 task_id : 84 
+Sat Aug  1 21:03:21 2015  control receive from filtrate engine task_id: 84
+Sat Aug  1 21:03:21 2015  message ip: 192.168.174.128, port: 23435, engine_type: 05, message_type: 0, for task: 84
+Sat Aug  1 21:03:27 2015  request from : ('192.168.174.128', 44890): engine message_type : 3 task_id : 84 
+Sat Aug  1 21:03:27 2015  control receive from web_save engine task_id: 84
+Sat Aug  1 21:03:27 2015  message ip: 192.168.174.128, port: 23436, engine_type: 06, message_type: 0, for task: 84
+Sat Aug  1 21:03:27 2015  message ip: 192.168.174.128, port: 23468, engine_type: 08, message_type: 0, for task: 84
+Sat Aug  1 21:03:28 2015  request from : ('192.168.174.128', 44902): engine message_type : 4 task_id : 84 
+Sat Aug  1 21:03:28 2015  control receive from qt_crawler engine task_id: 84
+Sat Aug  1 21:03:28 2015  message ip: 192.168.174.128, port: 23451, engine_type: 12, message_type: 0, for task: 84
+Sat Aug  1 21:03:28 2015  message ip: 192.168.174.128, port: 23467, engine_type: 07, message_type: 0, for task: 84
+Sat Aug  1 21:03:28 2015  message ip: 192.168.174.128, port: 23469, engine_type: 09, message_type: 0, for task: 84
+Sat Aug  1 21:03:30 2015  request from : ('192.168.174.128', 44911): engine message_type : 7 task_id : 84 
+Sat Aug  1 21:03:31 2015  request from : ('192.168.174.128', 44912): engine message_type : 10 task_id : 84 
+Sat Aug  1 21:03:31 2015  message ip: 192.168.174.128, port: 23470, engine_type: 10, message_type: 0, for task: 84
+Sat Aug  1 21:03:39 2015  request from : ('192.168.174.128', 44916): engine message_type : 6 task_id : 84 
+e_title_state None
+Sat Aug  1 21:03:53 2015  request from : ('192.168.174.128', 44919): engine message_type : 6 task_id : 84 
+e_view_emd_state None
+Sat Aug  1 21:03:55 2015  request from : ('192.168.174.128', 44920): engine message_type : 6 task_id : 84 
+**********************
+Sat Aug  1 21:03:55 2015 |*|task win over|*|, task_id: 84, task_state: 3
+Sat Aug  1 21:04:12 2015  request from : ('192.168.174.128', 44921): engine message_type : 3 task_id : 83 
+Sat Aug  1 21:04:12 2015  control receive from web_save engine task_id: 83
+Sat Aug  1 21:04:12 2015  message ip: 192.168.174.128, port: 23436, engine_type: 06, message_type: 0, for task: 83
+Sat Aug  1 21:04:13 2015  request from : ('192.168.174.128', 44931): engine message_type : 4 task_id : 83 
+Sat Aug  1 21:04:13 2015  control receive from qt_crawler engine task_id: 83
+Sat Aug  1 21:04:13 2015  message ip: 192.168.174.128, port: 23451, engine_type: 12, message_type: 0, for task: 83
+Sat Aug  1 21:04:13 2015  message ip: 192.168.174.128, port: 23467, engine_type: 07, message_type: 0, for task: 83
+Sat Aug  1 21:04:15 2015  request from : ('192.168.174.128', 44938): engine message_type : 10 task_id : 83 
+Sat Aug  1 21:04:15 2015 |*|task win over|*|, task_id: 83, task_state: 3
+Sat Aug  1 21:04:18 2015  request from : ('192.168.174.128', 44939): engine message_type : 7 task_id : 83 
+Sat Aug  1 21:04:18 2015 |*|task win over|*|, task_id: 83, task_state: 3
+Sat Aug  1 21:09:11 2015  request from : ('192.168.174.1', 58011): client message : qr85 
+Sat Aug  1 21:09:11 2015  control receive task_id start request: 85
+Sat Aug  1 21:09:11 2015  message ip: 192.168.174.128, port: 23473, engine_type: 13, message_type: 0, for task: 85
+Sat Aug  1 21:09:13 2015  request from : ('192.168.174.128', 44946): engine message_type : 9 task_id : 85 
+Sat Aug  1 21:09:13 2015 |*|task win over|*|, task_id: 85, task_state: 3
+Sat Aug  1 21:11:52 2015  request from : ('192.168.174.1', 59437): client message : qr86 
+Sat Aug  1 21:11:52 2015  control receive task_id start request: 86
+Sat Aug  1 21:11:52 2015  message ip: 192.168.174.128, port: 23391, engine_type: 01, message_type: 0, for task: 86
+Sat Aug  1 21:11:56 2015  request from : ('192.168.174.128', 44960): engine message_type : 5 task_id : 86 
+Sat Aug  1 21:11:56 2015  control receive from detect engine task_id: 86
+Sat Aug  1 21:11:56 2015  message ip: 192.168.174.128, port: 23464, engine_type: 04, message_type: 0, for task: 86
+Sat Aug  1 21:11:56 2015  request from : ('192.168.174.128', 44964): engine message_type : 2 task_id : 86 
+Sat Aug  1 21:11:56 2015  control receive from filtrate engine task_id: 86
+Sat Aug  1 21:11:56 2015  message ip: 192.168.174.128, port: 23435, engine_type: 05, message_type: 0, for task: 86
+Sat Aug  1 21:11:59 2015  request from : ('192.168.174.128', 44982): engine message_type : 3 task_id : 86 
+Sat Aug  1 21:11:59 2015  control receive from web_save engine task_id: 86
+Sat Aug  1 21:11:59 2015  message ip: 192.168.174.128, port: 23436, engine_type: 06, message_type: 0, for task: 86
+Sat Aug  1 21:11:59 2015  message ip: 192.168.174.128, port: 23468, engine_type: 08, message_type: 0, for task: 86
+Sat Aug  1 21:12:01 2015  request from : ('192.168.174.128', 45021): engine message_type : 4 task_id : 86 
+Sat Aug  1 21:12:01 2015  control receive from qt_crawler engine task_id: 86
+Sat Aug  1 21:12:01 2015  message ip: 192.168.174.128, port: 23451, engine_type: 12, message_type: 0, for task: 86
+Sat Aug  1 21:12:01 2015  message ip: 192.168.174.128, port: 23467, engine_type: 07, message_type: 0, for task: 86
+Sat Aug  1 21:12:01 2015  message ip: 192.168.174.128, port: 23469, engine_type: 09, message_type: 0, for task: 86
+Sat Aug  1 21:12:04 2015  request from : ('192.168.174.128', 45030): engine message_type : 7 task_id : 86 
+Sat Aug  1 21:12:07 2015  request from : ('192.168.174.128', 45031): engine message_type : 10 task_id : 86 
+Sat Aug  1 21:12:07 2015  message ip: 192.168.174.128, port: 23470, engine_type: 10, message_type: 0, for task: 86
+Sat Aug  1 21:12:12 2015  request from : ('192.168.174.128', 45035): engine message_type : 6 task_id : 86 
+e_title_state None
+Sat Aug  1 21:12:21 2015  request from : ('192.168.174.128', 45038): engine message_type : 6 task_id : 86 
+e_view_emd_state None
+Sat Aug  1 21:12:29 2015  request from : ('192.168.174.128', 45039): engine message_type : 6 task_id : 86 
+**********************
+Sat Aug  1 21:12:29 2015 |*|task win over|*|, task_id: 86, task_state: 3
+Sat Aug  1 21:20:34 2015  request from : ('192.168.174.1', 64042): client message : qr87 
+Sat Aug  1 21:20:34 2015  control receive task_id start request: 87
+Sat Aug  1 21:20:34 2015  message ip: 192.168.174.128, port: 23435, engine_type: 05, message_type: 0, for task: 87
+Sat Aug  1 21:20:40 2015  request from : ('192.168.174.128', 45044): engine message_type : 3 task_id : 87 
+Sat Aug  1 21:20:40 2015  control receive from web_save engine task_id: 87
+Sat Aug  1 21:20:40 2015  message ip: 192.168.174.128, port: 23436, engine_type: 06, message_type: 0, for task: 87
+Sat Aug  1 21:20:41 2015  request from : ('192.168.174.128', 45055): engine message_type : 4 task_id : 87 
+Sat Aug  1 21:20:41 2015  control receive from qt_crawler engine task_id: 87
+Sat Aug  1 21:20:41 2015  message ip: 192.168.174.128, port: 23451, engine_type: 12, message_type: 0, for task: 87
+Sat Aug  1 21:20:41 2015  message ip: 192.168.174.128, port: 23467, engine_type: 07, message_type: 0, for task: 87
+Sat Aug  1 21:20:43 2015  request from : ('192.168.174.128', 45062): engine message_type : 7 task_id : 87 
+Sat Aug  1 21:20:43 2015 |*|task win over|*|, task_id: 87, task_state: 3
+Sat Aug  1 21:20:44 2015  request from : ('192.168.174.128', 45063): engine message_type : 10 task_id : 87 
+Sat Aug  1 21:20:44 2015 |*|task win over|*|, task_id: 87, task_state: 3
+
+***********************************************************
+Sun Aug  2 11:52:07 2015: engine server start
+Sun Aug  2 11:52:07 2015: server register
+Sun Aug  2 11:52:07 2015: monitor port 23450
+————————————————————————————————————————————————————
+Sun Aug  2 11:52:37 2015  connect mysql win, ip: 192.168.65.148
+Sun Aug  2 16:33:41 2015  connect mysql win, ip: 192.168.65.148

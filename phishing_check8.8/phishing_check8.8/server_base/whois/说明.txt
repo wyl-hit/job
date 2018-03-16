@@ -1,0 +1,5 @@
+有三种工作方式，
+1 先创建类，然后调用getUrllist_list(self,url_list)，把要处理的列表作为参数
+2先创建类，然后调用getUrllist_txt(self,file)，会处理传递的file中的url，我测试时用的url.txt
+上面两种都要把数据库参数和线程参数传进去，默认参数是threadnums=1,host='172.31.159.248',username='root',password='',database='view')
+第三种工作方式先创建类，然后调用getmysqlfrom_ini(self,file)，会从file中读取数据库和线程数的配置信息，再调用getUrllist_list或者getUrllist_txt，来处理传进去的列表或者是文件
